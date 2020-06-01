@@ -4,6 +4,7 @@ channels:
   - anaconda
   - defaults
 dependencies:
+  - pip
   - arviz
   - matplotlib
   - pandas
