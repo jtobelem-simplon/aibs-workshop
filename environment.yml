@@ -1,20 +1,19 @@
 name: aibs
 channels:
   - conda-forge
-  - anaconda
-  - defaults
 dependencies:
-  - pip
-  - arviz
+  - numpy
+  - plotly
+  - psutil
+  - toolz
   - matplotlib
+  - dill
   - pandas
-  - scipy
-  - pystan
-  - jupyter_contrib_nbextensions
+  - partd
+  - bokeh
+  - dask
   - fbprophet
-  - pip:
-    - convertdate
-    - holidays
-    - plotly
+  - jupyter_contrib_nbextensions
+
 
 
